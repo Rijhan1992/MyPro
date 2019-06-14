@@ -11,13 +11,14 @@ public class Fibonacci_Series {
 		System.out .println(b);
 		c=a+b;
 		System.out .println(c);
-		while(c<89)
+		while(c<89)//for printing 
 		{
 			a=b;
 			b=c;
 			c=a+b;
 			
 			System.out .println(c);
+			
 			
 			
 		}
